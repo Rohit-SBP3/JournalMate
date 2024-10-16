@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+                <!-- Primary colors for the app -->
+                <color name="colorPrimary">#9A57E7</color> <!-- B76E79Calming green, used for buttons and highlights -->
+                <color name="colorPrimaryDark">#8434E1</color> <!-- 4CAF50Darker version of the primary color for status bar -->
+
+                <!-- Accent color for interactions (e.g., icons, FABs) -->
+                <color name="colorAccent">#FF9800</color> <!-- Warm, vibrant orange accent for key interactions -->
+
+                <!-- Background color for the app's main screens -->
+                <color name="backgroundLightBlue">#E3F2FD</color> <!-- Light pastel blue for a soothing background -->
+
+                <!-- Input fields and UI element background -->
+                <color name="inputBackground">#FFFFFF</color> <!-- Clean white background for input fields -->
+
+                <!-- Text colors -->
+                <color name="colorTextPrimary">#212121</color> <!-- Dark, near-black for main text (high contrast) -->
+                <color name="colorTextSecondary">#757575</color> <!-- Medium gray for secondary text like hints and descriptions -->
+
+                <!-- Error color for input fields and form validation -->
+                <color name="colorError">#D32F2F</color> <!-- Red for error states -->
+
+                <!-- Button and icon colors -->
+                <color name="buttonText">#FFFFFF</color> <!-- White for button text to ensure contrast -->
+                <color name="buttonBackground">#4CAF50</color> <!-- Matches primary color for buttons -->
+
+                <!-- Light and dark grays for dividers, outlines, and less prominent UI elements -->
+                <color name="lightGray">#F5F5F5</color> <!-- Light gray for subtle dividers or background elements -->
+                <color name="darkGray">#BDBDBD</color> <!-- Darker gray for outlines or less important elements -->
+
+                <!-- Transparent overlay color (for modal dialogs, etc.) -->
+                <color name="overlay">#66000000</color> <!-- 40% transparency black overlay for modal backgrounds -->
+
+                <!-- Custom colors for additional soft accents in the app -->
+                <color name="pastelGreen">#A5D6A7</color> <!-- Soft green pastel for background accents -->
+                <color name="pastelOrange">#FFE0B2</color> <!-- Soft orange pastel for subtle highlights -->
+                <color name="pastelBlue">#BBDEFB</color> <!-- Soft blue pastel for extra calming accents -->
+                <color name="design_snackbar_background_color" tools:override="true">@color/colorPrimary</color>
+                <color name="black">#FF000000</color>
+                <color name="gradientStart">#3E8EED</color>
+                <color name="gradientEnd">#69B7F7</color>
+                <color name="white">#FFFFFFFF</color>
+                <color name="purple700">#9516EF</color>
+</resources>

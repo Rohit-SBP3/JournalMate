@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "733223860931",
+    "project_id": "journalmate-3d95a",
+    "storage_bucket": "journalmate-3d95a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733223860931:android:82cf54668305149f56c076",
+        "android_client_info": {
+          "package_name": "com.example.journalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLxP-PFTj1SdOJKimSTQmZd9xTx3BEhXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

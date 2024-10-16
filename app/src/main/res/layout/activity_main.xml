@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:id="@+id/rootLogin"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/writing"
+        android:contentDescription="@string/app_logo"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+    
+    <TextView
+        android:id="@+id/tvAppTitleSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/journalmate"
+        android:textSize="28sp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/imgLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Email Input Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/loginUsername"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:startIconDrawable="@drawable/email"
+        app:boxBackgroundColor="@color/white"
+        app:startIconTint="@color/colorPrimaryDark"
+        app:boxStrokeColor="@color/colorPrimary"
+        app:boxCornerRadiusTopStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvAppTitleSignUp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etLoginUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:minHeight="48dp"
+            android:background="@drawable/input_background" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password Input Field with Icon and Toggle -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/loginPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:startIconDrawable="@drawable/shield"
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/colorPrimaryDark"
+        app:startIconTint="@color/colorPrimaryDark"
+        app:boxBackgroundColor="@color/white"
+        app:boxStrokeColor="@color/colorPrimary"
+        app:boxCornerRadiusTopStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:layout_constraintTop_toBottomOf="@id/loginUsername"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:padding="12dp"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:minHeight="48dp"
+            android:background="@drawable/input_background" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Forgot Password TextView -->
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimary"
+        android:clickable="true"
+        android:minHeight="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintTop_toBottomOf="@id/loginPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:focusable="true" />
+
+    <!-- Login Button with Icon -->
+    <FrameLayout
+        android:id="@+id/flSignin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvForgotPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <!-- Login Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textSize="16sp"
+            android:minHeight="48dp"
+            android:textColor="@android:color/white"
+            app:cornerRadius="8dp"
+            app:backgroundTint="@color/colorPrimary" />
+
+        <!-- ProgressBar inside the Button (initially invisible) -->
+        <ProgressBar
+            android:id="@+id/progressBarMainLogin"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:indeterminateTint="@color/white"
+            android:indeterminate="true"
+            android:theme="@style/Widget.AppCompat.ProgressBar" />
+
+    </FrameLayout>
+
+    <!-- Sign Up Text with Interactive Animation -->
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/don_t_have_an_account_sign_up"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        app:layout_constraintTop_toBottomOf="@id/flSignin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:animateLayoutChanges="true"
+        android:focusable="true" /> <!-- Subtle animation -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

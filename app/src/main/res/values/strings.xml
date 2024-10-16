@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Journal App</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up</string>
+    <string name="username">Username</string>
+    <string name="app_logo">App Logo</string>
+    <string name="my_journal">My Journal</string>
+    <string name="journalmate">JournalMate</string>
+    <string name="journal_title">Journal Title</string>
+    <string name="thought">This is a description of the journal entry. It can be a bit longer and may wrap to the next line.</string>
+    <string name="last_updated_sep_20_2024">Last updated: Sep 20, 2024</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="add_journal">Add Journal</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="journal_image">This is the Journal image to engage users</string>
+    <string name="share_desc">This button will be used to share journals</string>
+    <string name="forgot_password">Forgotten Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_instruction">We will send you an email with to reset your password. This may take a few minutes.</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="what_s_your_email_address">What\'s your email address?</string>
+    <string name="email_verification_message">Enter the email address at which you can be contacted. A verification code will be send to your email.</string>
+    <string name="verify">Verify</string>
+    <string name="dialog_title">Confirm Action</string>
+    <string name="dialog_message">Are you sure you want to proceed?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+</resources>

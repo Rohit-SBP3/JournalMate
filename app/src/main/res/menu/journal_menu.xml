@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Add Journal Menu Item -->
+    <item
+        android:id="@+id/actionAdd"
+        android:title="@string/add_journal"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_add_24"
+        android:tint="@color/colorAccent"
+        android:textColor="@color/white"/>
+
+
+    <!-- Sign Out Menu Item -->
+    <item
+        android:id="@+id/actionSignOut"
+        android:title="@string/sign_out"
+        android:icon="@drawable/shutdown"
+        android:enabled="true"
+        app:showAsAction="never"
+        app:iconTint="@color/white"/>
+
+</menu>
