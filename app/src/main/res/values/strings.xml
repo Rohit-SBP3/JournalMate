@@ -24,10 +24,11 @@
     <string name="reset_password_instruction">We will send you an email with to reset your password. This may take a few minutes.</string>
     <string name="back_to_login">Back to Login</string>
     <string name="what_s_your_email_address">What\'s your email address?</string>
-    <string name="email_verification_message">Enter the email address at which you can be contacted. A verification code will be send to your email.</string>
+    <string name="email_verification_message">A verification link will be send to your email. Please click that link to verify and Login!</string>
     <string name="verify">Verify</string>
     <string name="dialog_title">Confirm Action</string>
     <string name="dialog_message">Are you sure you want to proceed?</string>
     <string name="cancel">Cancel</string>
     <string name="confirm">Confirm</string>
+    <string name="wrong_email_back_to_signup">Wrong Email? Back to SignUp</string>
 </resources>
