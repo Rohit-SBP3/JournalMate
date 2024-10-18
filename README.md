@@ -27,7 +27,7 @@ Here are some of the key layouts of the app:
 - **Password Reset Layout:** Allows users to initiate a password reset and verify their identity.
   <img src="app/src/main/res/drawable/resetpassword.jpg" alt="Reset Password" width="400"/>
 - **Journal List Layout:** Displays all journal entries.
-  <img src="path/to/screenshots/list.png" alt="Journals List" width="400"/>
+  <img src="path/to/screenshots/list.jpg" alt="Journals List" width="400"/>
 
 ### Project Structure
 - **Firebase:** Used for user authentication, email verification, password management, and journal storage.
