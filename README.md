@@ -16,18 +16,18 @@ JournalMate is a journal management app designed to help users record and organi
 Here are some of the key layouts of the app:
 
 - **Main Activity:** Acts as the sign-in hub where users can log in or navigate to the sign-up screen.
-  ![Sign Inl Layout](app/src/main/res/drawable/main.jpg)
+  <img src="app/src/main/res/drawable/main.jpg" alt="Sign In Layout" width="400"/>
 - **Sign Up Layout:** Allows users to create new accounts and verify their email addresses through Firebase.
-  ![Sign Up](app/src/main/res/drawable/signup.jpg)
+  <img src="app/src/main/res/drawable/signup.jpg" alt="Sign Up" width="400"/>
 - **Add Journal Layout:** This layout allows users to create new journal entries, including fields for title, description, and date, with options to add cropped images.
-  ![Add Journal Layout](path/to/screenshots/add_journal_layout.png)
+  <img src="app/src/main/res/drawable/add.jpg" alt="Add Journal Layout" width="400"/>
 - **Email Verification Layout:** Prompts users to verify their email addresses through Firebase.
-  ![Email Verification](app/src/main/res/drawable/emailveri.jpg)
-  ![Email Verification](app/src/main/res/drawable/emailverification.jpg)
+  <img src="app/src/main/res/drawable/emailveri.jpg" alt="Email Verification" width="400"/>
+  <img src="app/src/main/res/drawable/emailverification.jpg" alt="Email Verification" width="400"/>
 - **Password Reset Layout:** Allows users to initiate a password reset and verify their identity.
-  ![Reset Password](app/src/main/res/drawable/resetpassword.jpg)
+  <img src="app/src/main/res/drawable/resetpassword.jpg" alt="Reset Password" width="400"/>
 - **Journal List Layout:** Displays all journal entries.
-  ![Journals List](path/to/screenshots/list.png)
+  <img src="path/to/screenshots/list.png" alt="Journals List" width="400"/>
 
 ### Project Structure
 - **Firebase:** Used for user authentication, email verification, password management, and journal storage.
