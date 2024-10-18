@@ -6,9 +6,11 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
-
+import com.google.firebase.appcheck.playintegrity.PlayIntegrityAppCheckProviderFactory;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.snackbar.Snackbar;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.appcheck.FirebaseAppCheck;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -30,6 +32,12 @@ public class EmailVerificationActivity extends AppCompatActivity {
 
         btnVerify = findViewById(R.id.btnVerifyEmail);
         tvBackToLogin = findViewById(R.id.tvBackToLoginReset);
+
+        FirebaseApp.initializeApp(this);
+        FirebaseAppCheck appCheck = FirebaseAppCheck.getInstance();
+        appCheck.installAppCheckProviderFactory(
+                PlayIntegrityAppCheckProviderFactory.getInstance());
+
 
         tvBackToLogin.setOnClickListener(v -> {
             FirebaseUser user = firebaseAuth.getCurrentUser();

@@ -8,7 +8,7 @@
     <string name="my_journal">My Journal</string>
     <string name="journalmate">JournalMate</string>
     <string name="journal_title">Journal Title</string>
-    <string name="thought">This is a description of the journal entry. It can be a bit longer and may wrap to the next line.</string>
+    <string name="thought">Journal Text</string>
     <string name="last_updated_sep_20_2024">Last updated: Sep 20, 2024</string>
     <string name="sign_up">Sign Up</string>
     <string name="already_have_an_account_login">Already have an account? Login</string>
@@ -21,7 +21,7 @@
     <string name="share_desc">This button will be used to share journals</string>
     <string name="forgot_password">Forgotten Password?</string>
     <string name="reset_password">Reset Password</string>
-    <string name="reset_password_instruction">We will send you an email with to reset your password. This may take a few minutes.</string>
+    <string name="reset_password_instruction">We will send you an email to reset your password. This may take a few minutes.</string>
     <string name="back_to_login">Back to Login</string>
     <string name="what_s_your_email_address">What\'s your email address?</string>
     <string name="email_verification_message">A verification link will be send to your email. Please click that link to verify and Login!</string>

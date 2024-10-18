@@ -146,6 +146,7 @@ public class MainActivity extends AppCompatActivity {
                     }).addOnFailureListener(e -> {
                         // Handle failure cases
                         progressBar.setVisibility(View.GONE);
+                        btnLogIn.setText(R.string.login);
                         btnLogIn.setEnabled(true);
                         showSnackbar("Login failed: " + e.getMessage());
                     });
@@ -156,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void showSnackbar(String message) {
-        Snackbar snackbar = Snackbar.make(findViewById(R.id.rootSignUP), message, Snackbar.LENGTH_SHORT);
+        Snackbar snackbar = Snackbar.make(findViewById(R.id.rootLogin), message, Snackbar.LENGTH_SHORT);
         View snackbarView = snackbar.getView();
         snackbarView.setBackgroundColor(getColor(R.color.colorPrimary));
         TextView textView = snackbarView.findViewById(com.google.android.material.R.id.snackbar_text);

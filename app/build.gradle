@@ -61,4 +61,7 @@ dependencies {
     annotationProcessor 'com.github.bumptech.glide:compiler:4.15.1'
 
     implementation 'com.github.yalantis:ucrop:2.2.8'
+
+    implementation 'com.google.firebase:firebase-appcheck-playintegrity:18.0.0'
+
 }

@@ -58,11 +58,9 @@
             android:layout_height="wrap_content"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:padding="12dp"
             android:textColor="@android:color/black"
             android:textSize="16sp"
-            android:minHeight="48dp"
-            android:background="@drawable/input_background" />
+            android:minHeight="48dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Password Input Field with Icon and Toggle -->
@@ -92,13 +90,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/password"
-            android:padding="12dp"
             android:maxLines="1"
             android:inputType="textPassword"
             android:textColor="@android:color/black"
             android:textSize="16sp"
-            android:minHeight="48dp"
-            android:background="@drawable/input_background" />
+            android:minHeight="48dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Forgot Password TextView -->

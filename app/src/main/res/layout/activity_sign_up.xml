@@ -63,8 +63,7 @@
             android:padding="12dp"
             android:textColor="@android:color/black"
             android:textSize="16sp"
-            android:minHeight="48dp"
-            android:background="@drawable/input_background" />
+            android:minHeight="48dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Email Input Field -->
@@ -94,8 +93,7 @@
             android:padding="12dp"
             android:textColor="@android:color/black"
             android:textSize="16sp"
-            android:minHeight="48dp"
-            android:background="@drawable/input_background" />
+            android:minHeight="48dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Password Input Field -->
@@ -127,8 +125,7 @@
             android:padding="12dp"
             android:textColor="@android:color/black"
             android:textSize="16sp"
-            android:minHeight="48dp"
-            android:background="@drawable/input_background" />
+            android:minHeight="48dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Confirm Password Input Field -->
@@ -160,8 +157,7 @@
             android:padding="12dp"
             android:textColor="@android:color/black"
             android:textSize="16sp"
-            android:minHeight="48dp"
-            android:background="@drawable/input_background" />
+            android:minHeight="48dp"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <!-- Sign Up Button -->
