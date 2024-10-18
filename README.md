@@ -1,5 +1,3 @@
-Here’s the updated project description for **JournalMate**, replacing Realtime Database with Firestore for journal storage:
-
 ---
 
 **JournalMate**  
@@ -19,17 +17,18 @@ JournalMate is a journal management app designed to help users record and organi
 Here are some of the key layouts of the app:
 
 - **Main Activity:** Acts as the sign-in hub where users can log in or navigate to the sign-up screen.
-  ![Add Journal Layout](path/to/screenshots/add_journal_layout.png)
+  ![Sign Inl Layout](app/src/main/res/drawable/main.jpg)
 - **Sign Up Layout:** Allows users to create new accounts and verify their email addresses through Firebase.
-  ![Add Journal Layout](path/to/screenshots/add_journal_layout.png)
+  ![Sign Up](app/src/main/res/drawable/signup.jpg)
 - **Add Journal Layout:** This layout allows users to create new journal entries, including fields for title, description, and date, with options to add cropped images.
   ![Add Journal Layout](path/to/screenshots/add_journal_layout.png)
 - **Email Verification Layout:** Prompts users to verify their email addresses through Firebase.
-  ![Add Journal Layout](path/to/screenshots/add_journal_layout.png)
+  ![Email Verification](app/src/main/res/drawable/emailveri.jpg)
+  ![Email Verification](app/src/main/res/drawable/emailverification.jpg)
 - **Password Reset Layout:** Allows users to initiate a password reset and verify their identity.
-  ![Add Journal Layout](path/to/screenshots/add_journal_layout.png)
+  ![Reset Password](app/src/main/res/drawable/resetpassword.jpg)
 - **Journal List Layout:** Displays all journal entries.
-  ![Add Journal Layout](path/to/screenshots/add_journal_layout.png)
+  ![Journals List](path/to/screenshots/list.png)
 
 ### Project Structure
 - **Firebase:** Used for user authentication, email verification, password management, and journal storage.
@@ -82,5 +81,3 @@ If you would like to contribute to this project:
 This project is licensed under the MIT License.
 
 ---
-
-Feel free to let me know if there are any more changes you’d like to make!
