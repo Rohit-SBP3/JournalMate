@@ -1,4 +1,3 @@
----
 
 **JournalMate**  
 JournalMate is a journal management app designed to help users record and organize their thoughts, activities, and daily experiences. Built with Android's modern development practices, the app provides users with features such as email verification, password verification, journal entry creation, image cropping using Ucrop, and a seamless sign-up process. Firebase Authentication, Storage, and Firestore ensure secure and reliable journal storage.
@@ -79,5 +78,3 @@ If you would like to contribute to this project:
 
 ### License
 This project is licensed under the MIT License.
-
----
